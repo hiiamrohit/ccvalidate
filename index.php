@@ -1,4 +1,10 @@
 <?php 
+/*
+* Author: Rohit Kumar
+* Website: iamrohit.in
+* Date: 11-12-2015
+* Description: Credit card validation script in PHP
+*/
 function CCValidate($type, $cNum) {
     switch ($type) {
     case "American":
